@@ -9,8 +9,12 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 200px;
+    height: 200px;     
     background-image: url(../images/bg-header-desktop.png);
+}
+
+.logo{
+    width: 100px;
 }
 
 .container-clipboard{
@@ -19,5 +23,38 @@ body{
     align-items: center;
     flex-direction: column;
     text-align: center;
+}
+
+.container-clipboard .history .title-home{
+    font-size: 26px;
+    padding: 10px 270px;
+}
+.container-clipboard .history .description-home{
+    padding: 10px 400px;
+}
+
+.buttons{
+    display: flex;
+    gap: 50px;
+}
+
+.buttons .btn{
+    padding: 12px 40px;
+    cursor: pointer;
+    border: none;
+    background-color: none;
+    border-radius: 25px;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+}
+
+.ios{
+    background-color: var(--green-500);
+}
+
+.mac{
+     background-color: var(--blue-100);
 }
 
