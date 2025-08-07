@@ -42,6 +42,7 @@ body{
 }
 .container-clipboard .history .description-home{
     padding: 10px 400px;
+    color: var(--gray-500);
 }
 
 .buttons{
@@ -68,5 +69,14 @@ body{
 }
 
 .container-about{
-    margin-top: 60px;
+    margin-top: 40px;
+    padding: 10px 400px;
+}
+
+.container-about .title-snippets{
+    padding: 20px;
+}
+
+.container-about .about-info{
+     color: var(--gray-500);
 }
