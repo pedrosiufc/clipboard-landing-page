@@ -4,4 +4,8 @@
     box-sizing: border-box;
 }
 
-
+.btn{
+    cursor: pointer;
+    border: none;
+    background-color: none;
+}
