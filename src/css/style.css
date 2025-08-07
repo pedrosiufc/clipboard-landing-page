@@ -104,3 +104,17 @@ body{
 .container-info-about .explications .explication{
     color: var(--gray-500);
 }
+
+.clipboard-access{
+    margin-top: 100px;
+}
+
+.clipboard-access .title-access{
+    padding: 20px;
+}
+
+.clipboard-access .description{
+    padding: 10px 370px;
+    color: var(--gray-500);
+    margin-bottom: 50px;
+}
