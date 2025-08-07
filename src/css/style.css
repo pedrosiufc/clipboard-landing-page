@@ -80,3 +80,27 @@ body{
 .container-about .about-info{
      color: var(--gray-500);
 }
+
+.container-info-about{
+    display: flex;
+    margin-top: 50px;
+}
+
+.container-info-about .explications{
+    display: flex;
+    padding: 130px;
+    text-align: left;        
+}
+
+.container-info-about .explications ul li {
+    margin-bottom: 3rem;
+}
+
+.container-info-about .explications .title-explication{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.container-info-about .explications .explication{
+    color: var(--gray-500);
+}
