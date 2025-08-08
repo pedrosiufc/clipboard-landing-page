@@ -138,7 +138,6 @@ body{
 
 .create-plain-view-list{
     display: flex;
-    align-items: center;
     padding: 10px;
 }
 
@@ -188,3 +187,7 @@ body{
     gap: 50px
 }
 
+.footer-links li{
+    flex-wrap: wrap;
+    gap: 20px;
+}
