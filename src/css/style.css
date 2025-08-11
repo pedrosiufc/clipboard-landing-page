@@ -139,16 +139,28 @@ body{
 .create-plain-view-list{
     display: flex;
     padding: 10px;
+
+}
+
+.create-plain-view-list p{
+    font-size: 12px;
+    color: var(--gray-500);
+    padding: 10px;    
+}
+
+.create-plain-view-list h2{
+    margin-top: 20px;
+}
+
+.create, .plain, .preview{
+    width: 360px;
 }
 
 .create, .plain, .preview{
     text-align: center;
-    padding: 20px;
+    padding: 30px;
 }
 
-.create, .plain, .preview p{
-    font-size: 10px 400px;
-}
 
 .big-tecs{
     display: flex;
@@ -176,7 +188,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 150px;
     height: 100px;
     background-color: rgb(231, 228, 228);
 }
@@ -187,7 +199,13 @@ body{
     gap: 50px
 }
 
-.footer-links li{
-    flex-wrap: wrap;
-    gap: 20px;
-}
+.footer .contacts .footer-links{
+       display: grid;
+        grid-auto-flow: column;
+        grid-template-rows: repeat(2, auto);
+        grid-template-columns: none;
+        row-gap: 20px;
+        column-gap: 60px;
+        justify-content: space-between;
+    }
+       
