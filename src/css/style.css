@@ -74,7 +74,7 @@ body{
 }
 
 .container-about{
-    height: 20vh;
+    margin-top: 20px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -109,7 +109,7 @@ body{
 
 .container-info-about .explications{
     display: flex;
-    padding: 130px;
+    padding: 20px 20px;
     text-align: left;        
 }
 
